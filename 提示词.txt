@@ -1,0 +1,19 @@
+基于opencascade和qt,实现一个简易的3D软件
+基本功能：
+1. 导入文件 （支持 obj stl igs stp glb gltf）
+2. 导出文件 （支持 obj stl igs stp glb gltf）
+3. 保存文件 实现文件的序列化
+4. 打开文件 实现文件的反序列化
+5. 视图基本操作 （平移 旋转 缩放)
+6. 视角变换 （top front left right back bottom iso)
+7. 鼠标基本操作 （中键滚轮：缩放， 中键按住拖动：旋转， 中键+右键按住拖动：平移）
+8. 基本体素建模 （方块 圆柱 球 圆锥 拉伸 扫略）
+9. 选择过滤 ：控制鼠标左键 选择 点 线 边 面 体 
+10. 鼠标交互 选择对象进行布尔运算
+11. 鼠标交互 选择对象进行 平移旋转镜像变量
+12. 鼠标交互 选择对象进行 阵列变换 
+13. 鼠标拾取 ： 鼠标在模型点击，在鼠标点击出创建点
+
+opencascade 安装路径 ：F:/OpenCasCAD/opencascade-7.9.2/occt-vc14-64
+qt安装路径 ：D:/Qt5.15.2/5.15.2/msvc2019_64
+Vs2022路径 ：C:\VS2022\Common7\IDE\devenv.exe
