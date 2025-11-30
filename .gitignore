@@ -73,3 +73,4 @@ Thumbs.db
 # MyCad specific
 *.mycad
 
+/mycad_debug.log
